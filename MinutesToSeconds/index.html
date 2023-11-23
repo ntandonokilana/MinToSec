@@ -4,36 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MinutesToSeconds</title>
-    <script src="index.js"></script>
     <style>
         body{
-        background-color: #f0f0f0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-    }
-
-    .container{
-        width: 200px;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 10px;
-        text-align: center;
-    }
+            background-color: #F0F0F0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container{
+            width: 200px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: center;
+        }
     </style>
 </head>
-
 <body>
     <div class="container">
         <h1>Minutes to Seconds</h1>
-        <label for="">Minutes</label>
+        <label for="minutes">Minutes</label>
         <input type="text" id="minutes"> <br><br>
-        <label for="">Seconds</label>
+        <label for="seconds">Seconds</label>
         <input type="text" id="seconds"> <br><br>
-        <button id="convertMinstoSecs">Convert</button>
+        <button onclick="convertMinstoSecs()">Convert</button>
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
